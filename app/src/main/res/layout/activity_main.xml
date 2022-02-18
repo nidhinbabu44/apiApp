@@ -1,0 +1,100 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/purple_500"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:text="Course Title"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+    </TextView>
+
+    <EditText
+        android:textColor="@color/white"
+        android:id="@+id/coursetitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+    </EditText>
+
+    <TextView
+        android:textColor="@color/white"
+        android:text="Description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+    </TextView>
+
+    <EditText
+        android:textColor="@color/white"
+        android:id="@+id/desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+    </EditText>
+
+    <TextView
+        android:textColor="@color/white"
+        android:text="Venue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+    </TextView>
+
+    <EditText
+        android:textColor="@color/white"
+        android:id="@+id/venue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+    </EditText>
+    <TextView
+        android:textColor="@color/white"
+        android:text="Course Date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+    </TextView>
+
+    <EditText
+        android:textColor="@color/white"
+        android:id="@+id/coudate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+    </EditText>
+
+    <TextView
+        android:textColor="@color/white"
+        android:text="Duration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+    </TextView>
+
+    <EditText
+        android:textColor="@color/white"
+        android:id="@+id/dura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+    </EditText>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:text="Submit "
+        android:textColor="@color/black"
+        android:textSize="10dp"
+        android:id="@+id/submitbut"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+    </androidx.appcompat.widget.AppCompatButton>
+
+
+
+</LinearLayout>
